@@ -13,6 +13,7 @@ public class Main {
         	System.out.printf("Número %dº: %09d\n", (i+1), Math.abs(random.nextInt(999999999)+1));
         }
         System.out.println("¡Buena suerte en el sorteo!");
+        System.out.println("Cambio realizado desde GitHub.");
 
     }
 }
