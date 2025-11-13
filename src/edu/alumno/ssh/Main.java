@@ -12,7 +12,7 @@ public class Main {
         for (int i = 0; i<5; i++) {
         	System.out.printf("Número %dº: %09d\n", (i+1), Math.abs(random.nextInt(999999999)+1));
         }
-        // Número complementario
+        System.out.println("¡Buena suerte en el sorteo!");
 
     }
 }
