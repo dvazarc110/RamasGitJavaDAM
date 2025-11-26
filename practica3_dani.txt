@@ -1,0 +1,30 @@
+  237  git remote set-url origin https://github.com/dvazarc110/RamasGitJavaDAM.git
+  238  git branch -M main
+  239  git push -u origin main
+  240  git config --global credential.helper manager
+  241  echo "/bin/" > .gitignore
+  242  git add .
+  243  git commit -m "Estructura Eclipse + Main con Lotería (inicial)"
+  244  git branch -M main
+  245  git push -u origin main
+  246  git switch -c desarrollo/ej1
+  247  git add src/edu/alumno/ramas/Main.java
+  248  git commit -m "Suma de números principales"
+  249  git switch main
+  250  git switch desarrollo/ej1
+  251  git switch main
+  252  git merge desarrollo/ej1
+  253  git push
+  254  git switch -c feature/mensaje
+  255  git add src/edu/alumno/ramas/Main.java
+  256  git commit -m "Mensaje en consola (rama feature/mensaje)"
+  257  git switch main
+  258  git add src/edu/alumno/ramas/Main.java
+  259  git commit -m "Mensaje alternativo en main"
+  260  git merge feature/mensaje
+  261  git add src/edu/alumno/ramas/Main.java
+  262  git commit -m "Merge: resuelto conflicto en Main.java"
+  263  git push
+  264  cd "\eclipse-workspace\RamasGitJavaDAM"
+  265  cd eclipse-workspace/RamasGitJavaDAM
+  266  git pull origin main
