@@ -1,0 +1,266 @@
+    1  git config --global user.name "dvazarc110"
+    2  git config --global user.email "dvazarc110@g.educaand.es"
+    3  cat ~/.gitconfig
+    4  cd Documents
+    5  mkdir ProgPython
+    6  cd ProgPython
+    7  git init
+    8  touch holamundo.py
+    9  nano holamundo.py
+   10  python holamundo.py
+   11  git status
+   12  git add holamundo.py
+   13  git commit -m "Primera versión de hola mundo"
+   14  git status
+   15  cd ../
+   16  mkdir ejercicios1
+   17  touch ejercicios1/prueba1.py
+   18  nano ejercicios1/prueba1.py
+   19  nano .gitignore
+   20  cd ejercicios1
+   21  nano .gitignore
+   22  git add .gitignore
+   23  git add .gitignore
+   24  git add ejercicios1
+   25  git status
+   26  git status
+   27  python prueba1.py
+   28  git status
+   29  cd .//
+   30  cd ../
+   31  git add .gitignore
+   32  git add ejercicios1
+   33  mkdir ejercicios1
+   34  cd ejercicios1
+   35  touch prueba1.py
+   36  nano .gitignore
+   37  git status
+   38  git init
+   39  git status
+   40  git add .gitignore
+   41  git add ejercicios1
+   42  git add prueba1.py
+   43  git config --glogal user.name "dvazarc110"
+   44  git config --global user.name "dvazarc110"
+   45  git config --global user.email "danielvarce04@gmail.com"
+   46  cat ~/.gitconfig
+   47  cd Documents
+   48  mkdir ProgPython
+   49  cd ProgPython
+   50  git init
+   51  touch holamundo.py
+   52  nano holamundo.py
+   53  cat holamundo.py
+   54  python holamundo.py
+   55  git status
+   56  git add holamundo.py
+   57  git comit -m "Primera versión de hola mundo"
+   58  git commit -m "Primera versión de hola mundo"
+   59  git status
+   60  mkdir ejercicios1
+   61  cd ejercicios1
+   62  touch prueba1.py
+   63  nano .gitignore
+   64  cd ../
+   65  git add .gitignore
+   66  cd ejercicios1
+   67  git add .gitignore
+   68  cd ../
+   69  git add ejercicios1
+   70  git commit -m "Primera versión de la carpeta ejercicios1"
+   71  git log --oneline
+   72  nano ejercicios1/prueba1.py
+   73  git add ejercicios1
+   74  git commit -m "Segunda versión con un error"
+   75  git log --oneline
+   76  git reset --hard <d515566>
+   77  git reset --hard <4e62004>
+   78  git log --oneline
+   79  git reset --hard <commit_hash>
+   80  git reset --hard
+   81  git log --oneline
+   82  git reset --hard
+   83  git reset --hard
+   84  nano holamundo.py
+   85  cd Documents/ProgPython
+   86  nano holamundo.py
+   87  git log --oneline
+   88  nano holamundo.py
+   89  cat holamundo.py
+   90  git status
+   91  git diff
+   92  git add holamundo.py
+   93  git commit -m "Versión personalizada de Hola Mundo con nombre del usuario"
+   94  git log --oneline
+   95  python holamundo.py
+   96  ls -al ~\.ssh
+   97  cat ~\.gitconfig
+   98  cat ~/.gitconfig
+   99  ls -al ~/.ssh
+  100  git log --oneline
+  101  git reset --hard d515566
+  102  git log --oneline
+  103  git status
+  104  cat holamundo.py
+  105  nano holamundo.py
+  106  cat holamundo.py
+  107  git status
+  108  git diff
+  109  git add holamundo.py
+  110  git commit -m "Versión personalizada de Hola Mundo con nombre del usuario"
+  111  git log --oneline
+  112  python holamundo.py
+  113  git log --oneline
+  114  git status
+  115  cd Documents/ProgPython
+  116  git log --oneline
+  117  python holamundo.py
+  118  ls -al ~/.ssh
+  119  ssh-keygen -t ed25519 -C "dvazarc110@g.educaand.es"
+  120  eval "$(ssh-agent -s)"
+  121  ssh-add ~/.ssh/id_ed25519
+  122  ssh-add -l
+  123  start-ssh-agent
+  124  clip < ~/.ssh/id_ed25519.pub
+  125  clip < ~/.ssh/id_ed25519.pub
+  126  ssh -T git@github.com
+  127  nano ~/.ssh/config
+  128  ssh -T git@github.com
+  129  git remote add origin git@github.com:dvazarc110/ProgPython_Prueba1.git
+  130  git remote -v
+  131  git push origin main
+  132  git branch -M main
+  133  git push origin main
+  134  git push origin main
+  135  Username for 'https://github.com': dvazarc110
+  136  Password for 'https://github.com': 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
+  137  git config --global credential.helper store
+  138  git@github.com:dvazarc110/Examen1Programacion.git
+  139  git@github.com:dvazarc110/Examen1Programacion.git
+  140  git@github.com:dvazarc110/Examen1Programacion.git
+  141  git push origin main
+  142  git pull origin main
+  143  git branch -M master
+  144  git config --global user.name "dvazarc110"
+  145  git config --global user.email "dvazarc110@g.educaand.es"
+  146  cd Documents
+  147  mkdir ProgPython
+  148  cd ProgPython
+  149  git init
+  150  touch holamundo.py
+  151  nano holamundo.py
+  152  cat holamundo.py
+  153  python holamundo.py
+  154  git status
+  155  git add holamundo.py
+  156  git commit -m "Primera versión de hola mundo"
+  157  git status
+  158  mkdir ejercicios1
+  159  touch ejercicios1/prueba1.py
+  160  nano .gitignore
+  161  git add .gitignore
+  162  git add ejercicios1
+  163  git commit -m "Primera versión de la carpeta ejercicios1"
+  164  git log --oneline
+  165  git add ejercicios1
+  166  git commit -m "Segunda versión con un error"
+  167  git log --oneline
+  168  git reset --hard ca4494d
+  169  git log --oneline
+  170  nano holamundo.py
+  171  git status
+  172  git diff
+  173  git add holamundo.py
+  174  git commit -m "Versión personalizada de Hola Mundo con nombre del usuario"
+  175  git log --oneline
+  176  python holamundo.py
+  177  ssh-keygen -t ed25519 -C "dvazarc110@g.educaand.es"
+  178  eval "$(ssh-agent -s)"
+  179  ssh-add ~/.ssh/id_ed25519
+  180  ssh-add -l
+  181  clip < ~/.ssh/id_ed25519.pub
+  182  ssh -T git@github.com
+  183  git remote add origin git@github.com:dvazarc110/ProgPython.git
+  184  git remote -v
+  185  git push
+  186  git branch -M main
+  187  git push origin main
+  188  git push origin main
+  189  git pull origin main
+  190  git push origin main
+  191  git branch -M master
+  192  git pull origin main
+  193  git pull origin main
+  194  git pull origin main
+  195  cd
+  196  cd Documents
+  197  git pull origin main
+  198  cd ProgPython
+  199  git remote set-url origin git@github.com:dvazarc110/ProgPython.git
+  200  git remote -v
+  201  git push origin master
+  202  ssh -T git@github.com
+  203  cd C:\Users\dvazarc110\eclipse-workspace
+  204  cd "C:\Users\dvazarc110\eclipse-workspace"
+  205  git clone git@github.com:dvazarc110/RamasGitJavaDAM.git
+  206  ls -l
+  207  cd "C:\Users\dvazarc110\eclipse-workspace\RamasGitJavaDAM"
+  208  echo "/bin/" > .gitignore
+  209  git add.
+  210  git add .
+  211  git commit -m "Proyecto Java creado desde Eclipse y gestionado por terminal (SSH listo)"
+  212  git push -u origin main
+  213  git push -u origin main
+  214  git add src/edu/alumno/ssh/Main.java
+  215  git commit -m "Añadido mensaje final de suerte"
+  216  git push
+  217  git pull origin main
+  218  git status
+  219  git diff
+  220  git diff
+  221  git log --oneline
+  222  git status
+  223  git log --oneline
+  224  git commit -m "Capturas del ejercicio añadidas"
+  225  git add capturas
+  226  git commit -m "Capturas del ejercicio añadidas"
+  227  git push
+  228  ssh -T git@github.com
+  229  ssh -T git@github.com
+  230  git remote -v
+  231  cd eclipse-workspace\RamasGitJavaDAM
+  232  cd eclipse-workspace/RamasGitJavaDAM
+  233  git remote -v
+  234  ssh -T git@github.com
+  235  git branch -M main
+  236  git push -u origin main
+  237  git remote set-url origin https://github.com/dvazarc110/RamasGitJavaDAM.git
+  238  git branch -M main
+  239  git push -u origin main
+  240  git config --global credential.helper manager
+  241  echo "/bin/" > .gitignore
+  242  git add .
+  243  git commit -m "Estructura Eclipse + Main con Lotería (inicial)"
+  244  git branch -M main
+  245  git push -u origin main
+  246  git switch -c desarrollo/ej1
+  247  git add src/edu/alumno/ramas/Main.java
+  248  git commit -m "Suma de números principales"
+  249  git switch main
+  250  git switch desarrollo/ej1
+  251  git switch main
+  252  git merge desarrollo/ej1
+  253  git push
+  254  git switch -c feature/mensaje
+  255  git add src/edu/alumno/ramas/Main.java
+  256  git commit -m "Mensaje en consola (rama feature/mensaje)"
+  257  git switch main
+  258  git add src/edu/alumno/ramas/Main.java
+  259  git commit -m "Mensaje alternativo en main"
+  260  git merge feature/mensaje
+  261  git add src/edu/alumno/ramas/Main.java
+  262  git commit -m "Merge: resuelto conflicto en Main.java"
+  263  git push
+  264  cd "\eclipse-workspace\RamasGitJavaDAM"
+  265  cd eclipse-workspace/RamasGitJavaDAM
+  266  git pull origin main
